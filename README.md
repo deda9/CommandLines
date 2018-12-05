@@ -16,3 +16,8 @@ mv "file path" "directory path"
 ```Shell 
 open $HOME
 ```
+
+4- Change your user password
+```Shell 
+passwd
+```
