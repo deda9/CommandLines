@@ -21,3 +21,10 @@ open $HOME
 ```Shell 
 passwd
 ```
+
+5- Print string with more than one lines
+```Shell 
+	cat <<-EOF
+ "Add here your test with any number of lines"
+EOF
+```
