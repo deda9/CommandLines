@@ -28,3 +28,8 @@ cat <<-EOF
  "Add here your test with any number of lines"
 EOF
 ```
+
+6- Open Xcode archive folder
+```Shell 
+open ~/Library/Developer/Xcode/Archives
+```
