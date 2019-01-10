@@ -33,3 +33,18 @@ EOF
 ```Shell 
 open ~/Library/Developer/Xcode/Archives
 ```
+
+7- Add you repo as your submodule in git
+```Shell 
+git submodule add git@github.com:username/reponame.git
+```
+
+8- The first time you checkout a submodule repo
+```Shell 
+git submodule update --init --recursive
+```
+
+9- When need to pull a submodule repo
+```Shell 
+git submodule update --recursive --remote
+```
