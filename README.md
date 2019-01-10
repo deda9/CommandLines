@@ -48,3 +48,8 @@ git submodule update --init --recursive
 ```Shell 
 git submodule update --recursive --remote
 ```
+
+10- Close all Xcode simulators
+```Shell 
+sudo killall -9 com.apple.CoreSimulator.CoreSimulatorService
+```
