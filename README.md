@@ -53,3 +53,11 @@ git submodule update --recursive --remote
 ```Shell 
 sudo killall -9 com.apple.CoreSimulator.CoreSimulatorService
 ```
+
+11- Compress PDF
+```Shell 
+brew install ghostscript
+
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4  -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=/inputPath /outputPath
+
+```
