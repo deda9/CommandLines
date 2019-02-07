@@ -61,3 +61,8 @@ brew install ghostscript
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4  -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=/inputPath /outputPath
 
 ```
+
+12- Take ScreenShot
+```Shell 
+xcrun simctl io booted screenshot <filename>.<file extension>
+```
