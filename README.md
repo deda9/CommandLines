@@ -71,3 +71,8 @@ xcrun simctl io booted screenshot <filename>.<file extension>
 ```Shell 
 xcrun simctl io booted recordVideo <filename>.<file extension>
 ```
+
+14- Merge one commit from branch to another
+```Shell 
+git cherry-pick <commit>
+```
