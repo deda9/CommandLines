@@ -76,3 +76,13 @@ xcrun simctl io booted recordVideo <filename>.<file extension>
 ```Shell 
 git cherry-pick <commit>
 ```
+
+15 - Get branch's SHA1
+```Shell
+git rev-parse Branch name
+```
+
+16- Revert merged branch
+```Shell
+git revert -m 1 branch's SHA1
+```
