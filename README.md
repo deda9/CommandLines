@@ -92,3 +92,8 @@ git revert -m 1 branch's SHA1
 defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder
 ```
+
+18- Rollback to specific history of file in git
+```Shell
+git checkout has of the commit which has that veriosn of the file -- file1/to/restore file2/to/restore
+```
