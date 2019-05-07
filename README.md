@@ -86,3 +86,9 @@ git rev-parse Branch name
 ```Shell
 git revert -m 1 branch's SHA1
 ```
+
+17- show hidden files mac
+```Shell
+defaults write com.apple.finder AppleShowAllFiles YES
+killall Finder
+```
