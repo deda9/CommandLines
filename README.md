@@ -97,3 +97,8 @@ killall Finder
 ```Shell
 git checkout "hash of the commit which has that veriosn of the file" "file1/to/restore file2/to/restore"
 ```
+
+19- Set ssh password 
+```Shell
+cd ~/.ssh/; ssh-add
+```
