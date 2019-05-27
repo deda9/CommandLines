@@ -102,3 +102,8 @@ git checkout "hash of the commit which has that veriosn of the file" "file1/to/r
 ```Shell
 cd ~/.ssh/; ssh-add
 ```
+
+20- Clear Xcode simulators 
+```Shell
+xcrun simctl erase all
+```
