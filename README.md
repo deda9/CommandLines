@@ -65,11 +65,17 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4  -dPDFSETTINGS=/ebook -dNOPAUSE -d
 12- Take Simulator ScreenShot
 ```Shell 
 xcrun simctl io booted screenshot <filename>.<file extension>
+
+After finish:
+Ctrl + C
 ```
 
 13- Record Simulator Video
 ```Shell 
 xcrun simctl io booted recordVideo <filename>.<file extension>
+
+After finish:
+Ctrl + C
 ```
 
 14- Merge one commit from branch to another
