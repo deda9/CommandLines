@@ -113,3 +113,8 @@ cd ~/.ssh/; ssh-add
 ```Shell
 xcrun simctl erase all
 ```
+
+21- Abort git Rebase
+```Shell
+git rebase --abort
+```
