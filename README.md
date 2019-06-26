@@ -118,3 +118,13 @@ xcrun simctl erase all
 ```Shell
 git rebase --abort
 ```
+
+22- Update Cocoapods [Read more](https://1upnote.me/post/2018/06/updating-cocoapods-latest-version/)
+```Shell
+sudo gem install cocoapods
+```
+
+23- Update Cocoapods with pre releases [Read more](https://1upnote.me/post/2018/06/updating-cocoapods-latest-version/)
+```Shell
+sudo gem install cocoapods --pre
+```
