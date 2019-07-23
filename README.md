@@ -123,6 +123,10 @@ git rebase --abort
 ```Shell
 sudo gem install cocoapods
 ```
+or 
+```Shell
+sudo gem install -n /usr/local/bin cocoapods
+```
 
 23- Update Cocoapods with pre releases [Read more](https://1upnote.me/post/2018/06/updating-cocoapods-latest-version/)
 ```Shell
