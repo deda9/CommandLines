@@ -132,3 +132,8 @@ sudo gem install -n /usr/local/bin cocoapods
 ```Shell
 sudo gem install cocoapods --pre
 ```
+
+24- Show the duration of builds in Xcode
+```Shell
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
+```
